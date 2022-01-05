@@ -1,0 +1,37 @@
+company = "Savvii B.V."
+total_time = "2021 - Now"
+start_year = "2021"
+end_year = ""
+locality = "Nijmegen"
+
+logo = "images/job_logos/savvii.png"
+
+
+[description.nl]
+text = "Savvii is een WordPress hostingbedrijf"
+
+[description.en]
+text = "Savvii is a WordPress hosting company"
+
+
+[positions]
+
+
+[[positions.nl]]
+title = "Tweedelijns support"
+timeframe = "2021"
+start_year = "2021"
+end_year = ""
+description = """
+
+"""
+
+
+[[positions.en]]
+title = "2nd level support"
+timeframe = "2021"
+start_year = "2021"
+end_year = ""
+description = """
+During my internship I did things
+"""

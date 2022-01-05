@@ -1,0 +1,10 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Dylan's Site"
+theme = 'dylanmaassen'
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+    [languages.en]
+    [languages.nl]

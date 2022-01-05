@@ -1,0 +1,54 @@
+company = "Elonisas Groep B.V."
+total_time = "2017 - 2020"
+start_year = "2017"
+end_year = "2021"
+locality = "Nijmegen"
+
+logo = "images/job_logos/elonisas.png"
+
+[description.nl]
+text = "Elonisas is een Drupal ontwikkel- en hostingbedrijf"
+
+[description.en]
+text = "Elonisas is a Drupal development and hosting company"
+
+
+[positions]
+
+[[positions.nl]]
+title = "Stagiair ICT beheer"
+timeframe = "2017"
+start_year = "2017"
+end_year = "2017"
+description = """
+
+"""
+
+[[positions.nl]]
+title = "Systeembeheerder"
+timeframe = "2017-2020"
+start_year = "2017"
+end_year = "2021"
+description = """
+
+"""
+
+[[positions.en]]
+title = "IT Management Internship"
+timeframe = "2017"
+start_year = "2017"
+end_year = "2021"
+description = """
+During my internship I did things
+"""
+
+[[positions.en]]
+title = "Systems administrator / Web developer"
+timeframe = "2017-2020"
+start_year = "2017"
+end_year = "2021"
+description = """
+
+"""
+
+
