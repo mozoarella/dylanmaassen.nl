@@ -1,0 +1,20 @@
+{{ define "main" }}
+ {{ range $.Site.Data.jobs }}
+    <div class="company">
+        <p class="com_title">{{ .company }} {{with .locality}}- {{.}}{{end}}</p>
+        <p class="com_timeframe">{{.start_year}} {{with .end_year}}- {{.}}{{else}}- {{i18n "now" }}{{end}}</p>
+        <div class="position_container">
+
+            <p>{{ i18n "positions"}}</p>
+            {{ range index .positions $.Language.Lang }}
+            <div class="job">
+                <p class="job_title">{{.title}} <span class="job_timeframe">({{.start_year}} {{with .end_year}}- {{.}}{{else}}- {{i18n "now" }}{{end}})</span></p>
+                <p class="job_description">{{.description}}</p>
+            </div>
+
+            {{end}}
+
+        </div>
+    </div>
+ {{ end }}
+{{ end }}

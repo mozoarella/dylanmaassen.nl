@@ -1,0 +1,4 @@
++++
+type = "staticpage"
+layout = "cv"
++++
