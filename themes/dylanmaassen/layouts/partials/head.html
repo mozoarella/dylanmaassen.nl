@@ -7,3 +7,4 @@
 {{ $mainscss := resources.Get "scss/main.scss"}}
 {{ $styling := slice $normalize $mainscss | resources.Concat "scss/styling.scss" | resources.ToCSS (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
 <link rel="stylesheet" href="{{ $styling.Permalink }}">
+<script src="https://kit.fontawesome.com/{{$.Site.Params.fontawesomekit}}.js" crossorigin="anonymous"></script>

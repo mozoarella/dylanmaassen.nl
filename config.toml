@@ -8,3 +8,6 @@ defaultContentLanguageInSubdir = true
 [languages]
     [languages.en]
     [languages.nl]
+
+[params]
+    fontawesomekit = "e042207efc"

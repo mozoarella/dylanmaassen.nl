@@ -1,3 +1,15 @@
 {{ define "main" }}
-
+<div id="socials">
+    {{range $.Site.Data.socials.platforms}}
+        <a href="{{.url}}"><i class="{{.fa_icon}}"></i></a>
+    {{end}}
+</div>
+<div id="frontpage-info">
+    <h1 id="my-name">
+        Dylan Maassen van den Brink
+    </h1>
+    <p id="my-description">
+        {{i18n "site_description" }}
+    </p>
+</div>
 {{ end }}
