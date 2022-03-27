@@ -4,6 +4,7 @@ title = "Dylan's Site"
 theme = 'dylanmaassen'
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
+disableKinds = ["RSS"]
 
 [languages]
     [languages.en]
@@ -11,3 +12,6 @@ defaultContentLanguageInSubdir = true
 
 [params]
     fontawesomekit = "e042207efc"
+
+
+[taxonomies]

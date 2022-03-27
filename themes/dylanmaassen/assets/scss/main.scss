@@ -1,35 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 html, body {
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: #01112a;
-
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 #content{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  padding: 1em;
-  height: 100vh;
-  box-sizing: border-box;
+  grid-template-rows: repeat(auto-fit, minmax(480px, 1fr));
+  //height: 100vh;
 }
 
 .kind-home{
-  #socials{
-    grid-row: 2 / 2;
-    grid-column: 2 / 2;
+  #info{
     justify-self: center;
-    align-self: center;
-    height: 100%;
-    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #blurb{
+    padding: 50px 20px;
+    //background-color: aliceblue;
+    width: 65vw;
+    display: flex;
+    //border: white solid 1px;
+    #inner-blurb-container{
+      display: flex;
+      flex-direction: row;
+      border: saddlebrown ridge 10px;
+      padding: 20px 10px;
+      background-color: antiquewhite;
+      img{
+        height: 150px;
+        //width: 150px;
+        margin-right: 50px;
+        align-self: center;
+        border: saddlebrown ridge 10px;
+      }
+      p{
+        font-family: 'Lexend', sans-serif;
+        color: black;
+        font-size: 20px;
+        margin: 0;
+      }
+      ul{
+        font-family: 'Lexend', sans-serif;
+        list-style: "> ";
+        font-size: 20px;
+        color: saddlebrown;
+        font-weight: bold;
+        margin: 0;
+        padding-inline-start: 20px;
+        li{
+          margin: 5px;
+          &:hover{
+            color: #e37729;
+          }
+          a{
+            text-decoration: none;
+            &:visited{
+              color: saddlebrown;
+              text-decoration-style: unset;
+            }
+            &:hover{
+              color: #e37729;
+              .flavourtext{
+                color: forestgreen;
+              }
+            }
+            .flavourtext{
+              color: darkgreen;
+            }
+          }
+        }
+      }
+    }
+
+  }
+  #socials{
+    border-top: white solid 2px;
+    padding: 50px 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     a{
-      padding: 10px 20px;
+      padding: 10px;
       &:visited{
         color: white;
       }
@@ -40,19 +102,24 @@ body {
   }
 }
 
-#frontpage-info{
+#footer-info{
   color: #FFF;
-  grid-column-start: 3;
-  grid-row-start: 3;
-  justify-self: end;
-  align-self: end;
+  width: 100%;
+  margin-top: auto;
   text-align: right;
   font-family: 'Lexend', sans-serif;
+  display: flex;
+  justify-content: end;
+  background-image: url("/img/triangles.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
   h1{
-    font-size: 4rem;
+    font-size: 3em;
     text-wrap: revert;
+    margin: 0;
   }
-  p{
-    font-size: 2rem;
+  #footer-text{
+    padding: 2rem;
+    width: 50vw;
   }
 }

@@ -1,29 +1,35 @@
 [[platforms]]
 name = "Twitter"
+flavour = "+1 Retweet"
 url = "https://twitter.com/mozdoes"
 fa_icon = "fa-brands fa-twitter fa-4x"
 
 [[platforms]]
 name = "Github"
+flavour = "+1 Star"
 url = "https://github.com/dylantic"
 fa_icon = "fa-brands fa-github fa-4x"
 
 [[platforms]]
 name = "GitLab"
+flavour = "+1 Star"
 url = "https://gitlab.com/dylantic"
 fa_icon = "fa-brands fa-gitlab fa-4x"
 
 [[platforms]]
 name = "LinkedIn"
+flavour = "+1 Connection"
 url = "https://www.linkedin.com/in/dylanmaassen/"
 fa_icon = "fa-brands fa-linkedin fa-4x"
 
 [[platforms]]
 name = "Steam"
+flavour = "+1 Friend"
 url = "https://steamcommunity.com/id/mozoa"
 fa_icon = "fa-brands fa-steam fa-4x"
 
 [[platforms]]
 name = "Spotify"
+flavour = "+1 Follower"
 url = "https://open.spotify.com/user/mozoa"
 fa_icon = "fa-brands fa-spotify fa-4x"

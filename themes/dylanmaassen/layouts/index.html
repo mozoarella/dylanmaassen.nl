@@ -1,15 +1,20 @@
 {{ define "main" }}
-<div id="socials">
-    {{range $.Site.Data.socials.platforms}}
-        <a href="{{.url}}"><i class="{{.fa_icon}}"></i></a>
-    {{end}}
+<div id="info">
+    <div id="blurb">
+        <div id="inner-blurb-container">
+            <img src="/img/triangles.svg" sizes="10px 10px">
+            <div id="blurb-text">
+                {{.Content}}<br />
+                <ul>
+                    {{range $.Site.Data.socials.platforms}}
+                    <li><a href="{{.url}}" target="_blank">{{.name}} (<span class="flavourtext">{{.flavour}}</span>)</a></li>
+                    {{end}}
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
 </div>
-<div id="frontpage-info">
-    <h1 id="my-name">
-        Dylan Maassen van den Brink
-    </h1>
-    <p id="my-description">
-        {{i18n "site_description" }}
-    </p>
-</div>
+
 {{ end }}
