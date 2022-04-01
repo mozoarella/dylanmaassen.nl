@@ -11,7 +11,7 @@ disableKinds = ["RSS"]
     [languages.nl]
 
 [params]
-    fontawesomekit = "e042207efc"
+    #fontawesomekit = "e042207efc"
 
 
 [taxonomies]
