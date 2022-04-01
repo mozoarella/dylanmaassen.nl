@@ -1,6 +1,6 @@
 [[platforms]]
 name = "Twitter"
-flavour = "+1 Retweet"
+flavour = "+1 Follower"
 url = "https://twitter.com/mozdoes"
 fa_icon = "fa-brands fa-twitter fa-4x"
 
