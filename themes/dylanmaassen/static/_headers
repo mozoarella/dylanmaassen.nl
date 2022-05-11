@@ -4,4 +4,4 @@
 	X-Frame-Options : DENY
 	X-Content-Type-Options : nosniff
 	Referrer-Policy : strict-origin-when-cross-origin
-	Permissions-Policy : fullscreen=(self 'https://www.youtube.com'), geolocation=(), microphone=(), camera=()
+	Permissions-Policy : fullscreen=(self "https://www.youtube.com"), geolocation=(), microphone=(), camera=()
