@@ -5,6 +5,7 @@ theme = 'dylanmaassen'
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 disableKinds = ["RSS"]
+enableGitInfo = true
 
 [languages]
     [languages.en]
