@@ -15,3 +15,9 @@ disableKinds = ["RSS"]
 
 
 [taxonomies]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

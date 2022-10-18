@@ -49,7 +49,9 @@ body {
         font-family: 'Lexend', sans-serif;
         color: black;
         font-size: 20px;
-        margin: 0;
+        &:first-of-type{
+          margin-top: 0;
+        }
       }
       ul{
         font-family: 'Lexend', sans-serif;
@@ -102,27 +104,5 @@ body {
         text-shadow: 1px 1px 15px rgba(255, 255, 255, 1);
       }
     }
-  }
-}
-
-#footer-info{
-  color: #FFF;
-  width: 100%;
-  margin-top: auto;
-  text-align: right;
-  font-family: 'Lexend', sans-serif;
-  display: flex;
-  justify-content: end;
-  background-image: url("/img/triangles.svg");
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  h1{
-    font-size: 3em;
-    text-wrap: revert;
-    margin: 0;
-  }
-  #footer-text{
-    padding: 2rem;
-    width: 50vw;
   }
 }

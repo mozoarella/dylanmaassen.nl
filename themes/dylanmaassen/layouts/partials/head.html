@@ -2,6 +2,7 @@
 <title>
     {{ block "title" . }} {{ .Site.Title }} {{ with .Title}}| {{ . }} {{ end }} {{ end }}
 </title>
+<meta name="description" content="{{ with .Description}}{{ . }}{{ end }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{ $normalize := resources.Get "scss/normalize.scss"}}
 {{ $mainscss := resources.Get "scss/main.scss"}}
