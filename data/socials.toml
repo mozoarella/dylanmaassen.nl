@@ -1,9 +1,9 @@
-[[platforms]]
-name = "Twitter"
-flavour.en = "+1 Follower"
-flavour.nl = "+1 Volger"
-url = "https://twitter.com/mozdoes"
-fa_icon = "fa-brands fa-twitter fa-4x"
+#[[platforms]]
+#name = "Twitter"
+#flavour.en = "+1 Follower"
+#flavour.nl = "+1 Volger"
+#url = "https://twitter.com/mozdoes"
+#fa_icon = "fa-brands fa-twitter fa-4x"
 
 [[platforms]]
 name = "Github"
