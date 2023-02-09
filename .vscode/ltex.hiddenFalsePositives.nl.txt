@@ -1,0 +1,1 @@
+{"rule":"MORFOLOGIK_RULE_NL_NL","sentence":"^\\Q+++ Title = 'Thuis' Description = \"Dit is de hoofdpagina van de persoonlijke website van Dylan Maassen van den Brink\" +++\\E$"}
