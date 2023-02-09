@@ -3,46 +3,39 @@
 #flavour.en = "+1 Follower"
 #flavour.nl = "+1 Volger"
 #url = "https://twitter.com/mozdoes"
-#fa_icon = "fa-brands fa-twitter fa-4x"
 
 [[platforms]]
 name = "Blog"
 flavour.en = "+1 Wisdom"
 flavour.nl = "+1 Wijsheid"
 url = "https://dylans.blog"
-fa_icon = "fa-brands fa-github fa-4x"
 
 [[platforms]]
 name = "Github"
 flavour.en = "+1 Star"
 flavour.nl = "+1 Ster"
 url = "https://github.com/dylantic"
-fa_icon = "fa-brands fa-github fa-4x"
 
 [[platforms]]
 name = "GitLab"
 flavour.en = "+1 Star"
 flavour.nl = "+1 Ster"
 url = "https://gitlab.com/dylantic"
-fa_icon = "fa-brands fa-gitlab fa-4x"
 
 [[platforms]]
 name = "LinkedIn"
 flavour.en = "+1 Connection"
 flavour.nl = "+1 Connectie"
 url = "https://www.linkedin.com/in/dylanmaassen/"
-fa_icon = "fa-brands fa-linkedin fa-4x"
 
 [[platforms]]
 name = "Steam"
 flavour.en = "+1 Friend"
 flavour.nl = "+1 Vriend"
 url = "https://steamcommunity.com/id/mozoa"
-fa_icon = "fa-brands fa-steam fa-4x"
 
 [[platforms]]
 name = "Spotify"
 flavour.en = "+1 Follower"
 flavour.nl = "+1 Volger"
 url = "https://open.spotify.com/user/mozoa"
-fa_icon = "fa-brands fa-spotify fa-4x"
