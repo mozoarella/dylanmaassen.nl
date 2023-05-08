@@ -11,6 +11,12 @@ flavour.nl = "+1 Wijsheid"
 url = "https://dylans.blog"
 
 [[platforms]]
+name = "Fediverse microblog"
+flavour.en = "+1 Follower"
+flavour.nl = "+1 Volger"
+url = "https://honk.city/@dylan"
+
+[[platforms]]
 name = "Github"
 flavour.en = "+1 Star"
 flavour.nl = "+1 Ster"
