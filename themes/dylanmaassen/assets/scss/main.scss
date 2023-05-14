@@ -14,7 +14,7 @@ body {
 #maingrid{
   display: grid;
   //grid-template-rows: repeat(auto-fit, minmax(480px, 1fr));
-  grid-template-columns: [leftgap]1fr [content]80vw [rightgap]1fr;
+  grid-template-columns: [leftgap]1fr [content]clamp(400px, 80vw, 1200px) [rightgap]1fr;
   //height: 100vh;
 }
 
@@ -29,7 +29,6 @@ body {
   #sdv-dialog-holder{
     padding: 20px 20px 0px 20px;
     display: flex;
-    max-width: 1200px;
     flex-direction: column;
     #sdv-dialog{
       display: flex;
