@@ -3,8 +3,18 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
-        <div id="content" class="kind-{{.Kind}}">
-        {{- block "main" . }}{{- end }}
+        <div id="maingrid" class='kind-{{.Kind}}{{with $.Param "layout"}} layout-{{ . }}{{end}}'>
+            <div id="contentcell">
+                <div id="sdv-dialog-holder">
+                    <div id="sdv-dialog">
+                        {{- block "main" . }}{{- end }}
+                    </div>
+                    <div class="forkthis">
+                        <a href="https://gitlab.com/dylantic/dylanmaassen.nl" target="_blank" rel="nofollow">Git</a>
+                        <a href="https://gitlab.com/dylantic/dylanmaassen.nl/-/commit/{{ .GitInfo.Hash}}" target="_blank" rel="nofollow">[{{ .GitInfo.AbbreviatedHash}}]</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

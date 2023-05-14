@@ -3,45 +3,58 @@
 #flavour.en = "+1 Follower"
 #flavour.nl = "+1 Volger"
 #url = "https://twitter.com/mozdoes"
+#target="_blank"
 
 [[platforms]]
 name = "Blog"
 flavour.en = "+1 Wisdom"
 flavour.nl = "+1 Wijsheid"
 url = "https://dylans.blog"
+target="_blank"
 
 [[platforms]]
 name = "Fediverse microblog"
 flavour.en = "+1 Follower"
 flavour.nl = "+1 Volger"
 url = "https://honk.city/@dylan"
+target="_blank"
 
 [[platforms]]
 name = "Github"
 flavour.en = "+1 Star"
 flavour.nl = "+1 Ster"
 url = "https://github.com/dylantic"
+target="_blank"
 
 [[platforms]]
 name = "GitLab"
 flavour.en = "+1 Star"
 flavour.nl = "+1 Ster"
 url = "https://gitlab.com/dylantic"
+target="_blank"
 
 [[platforms]]
 name = "LinkedIn"
 flavour.en = "+1 Connection"
 flavour.nl = "+1 Connectie"
 url = "https://www.linkedin.com/in/dylanmaassen/"
+target="_blank"
 
 [[platforms]]
 name = "Steam"
 flavour.en = "+1 Friend"
 flavour.nl = "+1 Vriend"
 url = "https://steamcommunity.com/id/mozoa"
+target="_blank"
 
 [[platforms]]
 name = "Spotify"
 flavour.en = "+1 Follower"
 flavour.nl = "+1 Volger"
 url = "https://open.spotify.com/user/mozoa"
+target="_blank"
+
+[[platforms]]
+name = "Read about my projects"
+url = "projects"
+target="_self"
