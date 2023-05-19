@@ -1,56 +1,42 @@
-#[[platforms]]
-#name = "Twitter"
-#flavour.en = "+1 Follower"
-#flavour.nl = "+1 Volger"
-#url = "https://twitter.com/mozdoes"
-#target="_blank"
-
 [[platforms]]
 name = "Blog"
-flavour.en = "+1 Wisdom"
-flavour.nl = "+1 Wijsheid"
+flavour = "+1 Wisdom"
 url = "https://dylans.blog"
 target="_blank"
 
 [[platforms]]
 name = "Fediverse microblog"
-flavour.en = "+1 Follower"
-flavour.nl = "+1 Volger"
+flavour = "+1 Follower"
 url = "https://honk.city/@dylan"
 target="_blank"
 
 [[platforms]]
 name = "Github"
-flavour.en = "+1 Star"
-flavour.nl = "+1 Ster"
+flavour = "+1 Star"
 url = "https://github.com/dylantic"
 target="_blank"
 
 [[platforms]]
 name = "GitLab"
-flavour.en = "+1 Star"
-flavour.nl = "+1 Ster"
+flavour = "+1 Star"
 url = "https://gitlab.com/dylantic"
 target="_blank"
 
 [[platforms]]
 name = "LinkedIn"
-flavour.en = "+1 Connection"
-flavour.nl = "+1 Connectie"
+flavour = "+1 Connection"
 url = "https://www.linkedin.com/in/dylanmaassen/"
 target="_blank"
 
 [[platforms]]
 name = "Steam"
-flavour.en = "+1 Friend"
-flavour.nl = "+1 Vriend"
+flavour = "+1 Friend"
 url = "https://steamcommunity.com/id/mozoa"
 target="_blank"
 
 [[platforms]]
 name = "Spotify"
-flavour.en = "+1 Follower"
-flavour.nl = "+1 Volger"
+flavour = "+1 Follower"
 url = "https://open.spotify.com/user/mozoa"
 target="_blank"
 

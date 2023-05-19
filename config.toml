@@ -3,13 +3,12 @@ languageCode = 'en-us'
 title = "Dylan's Site"
 theme = 'dylanmaassen'
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 disableKinds = ["RSS"]
 enableGitInfo = true
 
 [languages]
     [languages.en]
-    [languages.nl]
 
 [params]
     #fontawesomekit = "e042207efc"

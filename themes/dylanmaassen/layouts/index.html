@@ -3,7 +3,7 @@
                 {{.Content}}<br />
                 <ul>
                     {{range $.Site.Data.socials.platforms}}
-                    <li><a href="{{.url}}" target="{{.target}}">{{.name}} {{with index .flavour $.Language.Lang}}(<span class="flavourtext">{{.}}</span>){{end}}</a></li>
+                    <li><a href="{{.url}}" target="{{.target}}">{{.name}} {{with .flavour }}(<span class="flavourtext">{{.}}</span>){{end}}</a></li>
                     {{end}}
                 </ul>
 
