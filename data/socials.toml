@@ -5,12 +5,6 @@ url = "https://dylans.blog"
 target="_blank"
 
 [[platforms]]
-name = "Fediverse microblog"
-flavour = "+1 Follower"
-url = "https://honk.city/@dylan"
-target="_blank"
-
-[[platforms]]
 name = "Github"
 flavour = "+1 Star"
 url = "https://github.com/dylantic"
