@@ -11,9 +11,9 @@ url = "https://github.com/mozoarella"
 target="_blank"
 
 [[platforms]]
-name = "GitLab"
-flavour = "+1 Star"
-url = "https://gitlab.com/dylantic"
+name = "Matrix"
+flavour = "+1 Message"
+url = "https://matrix.to/#/@mozoa:matrix.org"
 target="_blank"
 
 [[platforms]]
@@ -29,9 +29,9 @@ url = "https://steamcommunity.com/id/mozoa"
 target="_blank"
 
 [[platforms]]
-name = "Spotify"
+name = "Tidal"
 flavour = "+1 Follower"
-url = "https://open.spotify.com/user/mozoa"
+url = "https://tidal.com/browse/user/192694731"
 target="_blank"
 
 [[platforms]]

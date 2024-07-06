@@ -20,6 +20,11 @@ I found making post images for posts on dylans.blog to be cumbersome. This tool 
 
 The source can be found on {{<extlink url="https://github.com/dylantic/blogimagegen" text="GitHub">}}
 
+## Tibby
+A Discord bot written in Go. Development has been frozen for the moment, but I expect to pick it back up pretty soon. (last edited July 2024)
+
+Of course the source can be found here on {{<extlink url="https://github.com/TibbyRocks/Tibby" text="GitHub">}}
+
 ## B2
 This one is very much still a work in progress. I found {{<extlink url="https://wiki.nikiv.dev/" text="this project">}} online and really wanted to do something similar. Just a repository of everything I know. I've decided on the name "B2" which makes it sound like a hip new AWS service, but it's actually just "Brain 2". 
 
