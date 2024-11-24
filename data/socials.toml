@@ -35,6 +35,12 @@ url = "https://tidal.com/browse/user/192694731"
 target="_blank"
 
 [[platforms]]
+name = "Deezer"
+flavour = "+1 Follower"
+url = "https://www.deezer.com/en/profile/3337943844"
+target="_blank"
+
+[[platforms]]
 name = "Read about my projects"
 url = "projects"
 target="_self"
