@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{ $normalize := resources.Get "scss/normalize.scss"}}
 {{ $mainscss := resources.Get "scss/main.scss"}}
-{{ $styling := slice $normalize $mainscss | resources.Concat "scss/styling.scss" | resources.ToCSS (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
+{{ $styling := slice $normalize $mainscss | resources.Concat "scss/styling.scss" | css.Sass (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
 {{/*<link rel="stylesheet" href="{{ $styling.Permalink }}">*/}}
 <style>{{ safeCSS $styling.Content }}</style>
 {{ if (isset $.Site.Params "fontawesomekit" )}}
